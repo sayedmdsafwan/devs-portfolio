@@ -39,13 +39,19 @@ h2 {
     font-size: 50px;
     line-height: 4.5rem;
 }
-
+h3 {
+    font-size: 35px;
+}
+h5 {
+    color: #ffa500;
+    font-size: 17px;
+}
 h4 {
     font-size: 24px;
     line-height: 4.5rem;
 }
 .inline-design {
-    color: #FFA500;
+    color: #ffa500;
 }
 p {
     font-size: 16px;
@@ -75,5 +81,50 @@ p {
     background-position: right;
 }
 
-
 /* second section finished */
+
+.exp-section {
+    margin: 50px 0 100px;
+    background: url("images/exp-bg.png") no-repeat;
+    background-position: left center;
+}
+
+.exp-cont {
+    display: flex;
+}
+
+.half-exp {
+    width: 50%;
+    margin-top: 80px;
+    padding: 0 20px;
+    margin-right: 40px;
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    min-height: 300px;
+    box-shadow: 5px 5px 40px rgb(223, 223, 223);
+    transition: all 500ms;
+}
+.half-exp:last-child {
+    margin-right: 0;
+    margin-left: 40px;
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(100, 130, 211), rgb(238, 106, 83));
+    border-image-slice: 1;
+}
+
+.half-exp:hover {
+    box-shadow: 5px 5px 40px rgb(184, 184, 184);
+}
+
+.half-exp h3 {
+    line-height: 5rem;
+}
+
+.half-exp h5 {
+    line-height: 4rem;
+}
+
+.half-exp p {
+    margin-top: 15px;
+}
