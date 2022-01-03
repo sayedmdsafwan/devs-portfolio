@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .container {
@@ -12,7 +12,7 @@
 
 .header-section {
     padding: 50px;
-    background: url('images/top-banner.png') no-repeat;
+    background: url("images/top-banner.png") no-repeat;
 }
 
 .flexible {
@@ -31,31 +31,49 @@
     width: 100%;
 }
 .designing-hero-content {
-    padding-right: 2%;
+    padding-right: 5%;
 }
 
-.designing-hero-content h1,h2 {
+h1,
+h2 {
     font-size: 50px;
     line-height: 4.5rem;
 }
 
-.designing-hero-content h4 {
+h4 {
     font-size: 24px;
     line-height: 4.5rem;
 }
-
-.designing-hero-content p {
+.inline-design {
+    color: #FFA500;
+}
+p {
     font-size: 16px;
     color: #696969;
     letter-spacing: 1.5px;
     margin: 0 0 26px 0;
 }
 
-.designing-hero-content a {
+.btn-link {
     display: inline-block;
     text-decoration: none;
     padding: 10px 40px;
-    background-image: linear-gradient(#FB6454 , #F78A6A);
+    background-image: linear-gradient(#fb6454, #f78a6a);
     border-radius: 4px;
     color: whitesmoke;
 }
+
+/* header section complete */
+
+.aligning-image-second-section {
+    padding-right: 5%;
+}
+
+.about-section {
+    padding: 50px;
+    background: url("images/dream-bg.png") no-repeat;
+    background-position: right;
+}
+
+
+/* second section finished */
