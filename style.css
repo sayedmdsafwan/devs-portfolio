@@ -128,3 +128,17 @@ p {
 .half-exp p {
     margin-top: 15px;
 }
+
+
+
+/* exp section finished */
+
+
+footer p {
+    text-align: center;
+}
+
+footer p a {
+    text-decoration: none;
+    color: coral;
+}
